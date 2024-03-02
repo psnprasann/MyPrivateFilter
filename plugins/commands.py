@@ -24,10 +24,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖  ᴜᴘᴅᴀᴛᴇꜱ  🤖', url="https://telegram.me/Nobideveloper")
+                InlineKeyboardButton(' ᴄʜᴀɴɴᴇʟ​ ', url=CHNL_LNK)
             ],
             [
-                InlineKeyboardButton('♻️  ᴘʟᴇᴀꜱᴇ ꜱʜᴀʀᴇ  ♻️', url=f"https://telegram.me/share/url?url=telegram.me/Nobideveloper"),
+                InlineKeyboardButton(' ᴄʜᴀɴɴᴇʟ​ ', url=CHNL_LNK),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -928,10 +928,10 @@ async def deletemultiplefiles(bot, message):
 @Client.on_message(filters.command("set_shortlink"))
 async def shortlink(bot, message):
     btn = [[
-        InlineKeyboardButton(text="ʀᴇᴘᴏ", url="https://github.com/NobiDeveloper/Nobita-Filter-Bot"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/NobiDeveloperr")
+        InlineKeyboardButton(text="ʀᴇᴘᴏ", url="http://telegram.me/MoviesMagaa"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="http://telegram.me/MoviesMagaa")
         ],[
-        InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ꜱʜᴏʀᴛɴᴇʀ", url="http://telegram.me/Shizuka_Filter_Bot?startgroup=true")
+        InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ꜱʜᴏʀᴛɴᴇʀ", url="http://telegram.me/MoviesMagaa")
     ]]
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
