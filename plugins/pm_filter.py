@@ -223,9 +223,6 @@ async def next_page(bot, query):
             InlineKeyboardButton("♻️ ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"send_fall#{pre}#{key}#{offset}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
             InlineKeyboardButton("⚜️  ᴛɪᴘꜱ", callback_data="sinfo")
-        ])
-    btn.insert(0, [
-        InlineKeyboardButton("⛔️  sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ ​ ⛔️", url="https://youtube.com/@NobiDeveloper")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -399,9 +396,6 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0, [
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"send_fall#{pre}#{key}#{offset}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
-        ])
-    btn.insert(0, [
-        InlineKeyboardButton("⛔️  sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ ​ ⛔️", url="https://youtube.com/@NobiDeveloper")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1610,9 +1604,6 @@ async def auto_filter(client, msg, spoll=False):
     else:
         btn.append(
             [InlineKeyboardButton(text="🔘 ɴᴏ ᴍᴏʀᴇ ᴘᴀɢᴇs 🔘",callback_data="pages")]
-        )
-    btn.insert(0, [
-        InlineKeyboardButton("⛔️  sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ  ⛔️", url="https://youtube.com/@NobiDeveloper")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     now = datetime.now(tz)
