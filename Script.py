@@ -12,7 +12,9 @@ class script(object):
 ➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️
 Bro Kantara send me ❌
 
-Kantara movie plz ❌</b>
+Kantara movie plz ❌
+
+admin @MM_Admin_Bot</b>
 """
 
     HELP_TXT = """
