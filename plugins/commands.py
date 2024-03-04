@@ -319,7 +319,7 @@ async def start(client, message):
                     except:
                         return
                 await msg.edit_caption(f_caption)
-                k = await msg.reply("<b>If You Get Any Error In File, ⭕️Check out VLC Player For Android https://play.google.com/store/apps/details?id=org.videolan.vlc</b>", quote=True)
+                k = await msg.reply("<b>If You Need Any Help @MM_Admin_Bot</b>", quote=True)
                 await asyncio.sleep(600000000)
                 await msg.delete()
                 await k.delete()
@@ -362,7 +362,7 @@ async def start(client, message):
                 ]
             )
         )
-        k = await msg.reply("<b>If You Get Any Error In File, ⭕️Check out VLC Player For Android https://play.google.com/store/apps/details?id=org.videolan.vlc</b>", quote=True)
+        k = await msg.reply("<b>If You Need Any Help @MM_Admin_Bot, </b>", quote=True)
         await asyncio.sleep(600000000)
         await msg.delete()
         await k.delete()
@@ -451,7 +451,7 @@ async def start(client, message):
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>If You Get Any Error In File, ⭕️Check out VLC Player For Android https://play.google.com/store/apps/details?id=org.videolan.vlc</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>If You Need Any Help @MM_Admin_Bot</b>")
         await asyncio.sleep(600000000)
         await k.delete()
         return 
