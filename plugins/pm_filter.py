@@ -1758,6 +1758,7 @@ async def advantage_spell_chok(client, msg):
     btn.append([InlineKeyboardButton(text="✗  ᴄʟᴏsᴇ  ✗", callback_data=f'spol#{reqstr1}#close_spellcheck')])
     spell_check_del = await msg.reply_text(
         text=(script.I_CUD_NT.format(mv_rqst)),
+        reply_markup= button,
         button = [[
                    InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=f"https://www.google.com/search")
         ]]
