@@ -1761,6 +1761,7 @@ async def advantage_spell_chok(client, msg):
         button = [[
                    InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
+    )
     try:
         if settings['auto_delete']:
             await asyncio.sleep(600)
