@@ -238,18 +238,7 @@ async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     movies = SPELL_CHECK.get(query.message.text)
     if not movies:
-        google = query.message.text.replace(" ", "+")
-        button = [[
-            InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=f"https://www.google.com/search?q={google}")
-        ]]
-        k = await message.reply_text(text=script.OLD_ALRT_TXT.format(search), reply_markup=InlineKeyboardMarkup(button))
-        await asyncio.sleep(120)
-        await k.delete()
-        try:
-            await message.delete()
-        except:
-            pass
-        return
+        return await query.answer(script.OLD_ALRT_TXT.format(query.from_user.first_name), show_alert=True)
     if int(user) != 0 and query.from_user.id != int(user):
         return await query.answer(script.ALRT_TXT.format(query.from_user.first_name), show_alert=True)
     if movie_ == "close_spellcheck":
