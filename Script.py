@@ -161,9 +161,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     OLD_ALRT_TXT ="""{},
 
-ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇ,
+Please Check Your Spelling 👇
 
-ꜱᴇɴᴅ ᴛʜᴇ ʀᴇǫᴜᴇ𝗌ᴛ ᴀɢᴀɪɴ 😊
+https://www.google.com/search
 """
 
     CUDNT_FND = """<b>{},</b>
