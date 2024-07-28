@@ -238,10 +238,6 @@ async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
         return await query.answer(script.SPELL_CHECK, show_alert=True)
-    movie = await get_poster(id, id=True)
-    search = movie.get('title')
-    await query.answer('ᴄʜᴇᴄᴋɪɴɢ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ 🌚')
-    files, offset, total_results = await get_search_results(search)
     if files:
         k = (search, files, offset, total_results)
         await auto_filter(bot, query, k)
