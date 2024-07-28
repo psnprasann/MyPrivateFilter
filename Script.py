@@ -161,9 +161,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     OLD_ALRT_TXT ="""{},
 
-Please Check Your Spelling 👇
-
-https://www.google.com/search
+Please Check Your Spelling ON Google
 """
 
     CUDNT_FND = """<b>{},</b>
