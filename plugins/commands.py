@@ -319,7 +319,7 @@ async def start(client, message):
                     except:
                         return
                 await msg.edit_caption(f_caption)
-                k = await msg.reply("<b>If You Need Any Help @MM_Admin_Bot</b>", quote=True)
+                k = await msg.reply("<b>Use Version 2 Bot @File_Magaa_RoBot 👈</b>", quote=True)
                 await asyncio.sleep(600000000)
                 await msg.delete()
                 await k.delete()
@@ -362,7 +362,7 @@ async def start(client, message):
                 ]
             )
         )
-        k = await msg.reply("<b>If You Need Any Help @MM_Admin_Bot, </b>", quote=True)
+        k = await msg.reply("<b>Use Version 2 Bot @File_Magaa_RoBot 👈</b>", quote=True)
         await asyncio.sleep(600000000)
         await msg.delete()
         await k.delete()
