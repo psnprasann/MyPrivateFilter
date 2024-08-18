@@ -162,6 +162,8 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     OLD_ALRT_TXT ="""{},
 
 Please Check Your Spelling ON Google
+
+ದಯವಿಟ್ಟು ಬಟನ್ ಮೇಲೆ ಹೇಗೆ ಸ್ಪೆಲ್ಲಿಂಗ್ ಇದೆಯೋ ಹಾಗೆ ಟೈಪ್ ಮಾಡಿ ಸೆಂಡ್ ಮಾಡಿ
 """
 
     CUDNT_FND = """<b>{},</b>
